@@ -1,0 +1,67 @@
+/* .App {
+  margin: 0%;
+  padding: 0px;
+  box-sizing: border-box;
+} */
+
+.navbarMainDark {
+  background-color: #2e86c1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.navbarMainLight {
+  background-color: #17202A;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+}
+
+
+.navlinks ul {
+  list-style: none;
+  display: flex;
+}
+
+.navlinks ul li {
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+.btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.changeImageSec {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.imgBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.toggleBtn {
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.bulbImg {
+  width: 100%;
+  height: 300px;
+}
